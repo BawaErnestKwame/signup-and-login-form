@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-container{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    padding: 2rem 5rem;
+}
+
+.first-container{
+    background-color: #000;
+    width: 100%;
+    height: 45vh;
+    padding: 3rem;
+    display: flex;
+    gap: 12rem;
+  justify-content: center;
+  position: relative;
+
+}
+
+.second-container{
+    background-color: rgb(151, 33, 248);
+    width: 100%;
+    height: 45vh;
+}
+
+.form-card{
+    background-color: whitesmoke;
+    position: relative;
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: 80vh;
+    
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.form-card h1{
+    font-size: 1.9rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 1rem;
+    
+}
+
+.input-field{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.login-signup{
+    width: 100%;
+    text-align: center;
+    border:1px solid gray ;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+button{
+    padding: 15px 5rem;
+    border-radius: 10px;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    width: 100%;
+}
+
+.login{
+    color: white;
+    background: linear-gradient(to right, rgb(3, 3, 105), rgb(47, 151, 221));
+
+}
+
+small{
+   
+    font-size: 16px;
+}
+
+small a{
+    margin-top: 30px;
+
+}
+
+a{
+    text-decoration: none;
+    color: rgb(105, 5, 236);
+}
+
+.fa-solid{
+    font-size: 16px;
+    color: gray;
+}
+
+.btn{
+    background: linear-gradient(to left, rgb(3, 3, 105), rgb(47, 151, 221));
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+    
+}
+
+#login{
+    background: transparent;
+    color: black;
+    
+}
+
+#signup{
+    background: linear-gradient(to right, rgb(3, 3, 105), rgb(47, 151, 221));
+    color: aliceblue;
+
+}
+
+::placeholder{
+    font-size: 16px;
+}
+
+@media screen {
+    
+    
+}
+
+
+
+
+
